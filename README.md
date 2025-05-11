@@ -52,11 +52,11 @@ This package includes the following default configuration:
 
 ## Development
 
-This package is published to the GitHub Package Registry. To use it in your projects, make sure to:
+This package is published to GitHub Packages. Make sure you have the following in your `.npmrc`:
 
-1. Configure npm to use GitHub Packages
-2. Authenticate with GitHub
-3. Install the package using the full package name
+```
+@octomatize:registry=https://npm.pkg.github.com/
+```
 
 ## License
 
